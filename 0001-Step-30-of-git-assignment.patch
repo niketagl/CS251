@@ -1,0 +1,24 @@
+From f97ace9c79c0a3a694f3b4ca2e1c6f7eb22533d9 Mon Sep 17 00:00:00 2001
+From: Niket Agrawal <niketagrawal99@gmail.com>
+Date: Mon, 5 Mar 2018 01:35:52 +0530
+Subject: [PATCH] Step 30 of git assignment
+
+---
+ hello.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/hello.c b/hello.c
+index 71e1466..203f621 100644
+--- a/hello.c
++++ b/hello.c
+@@ -1,5 +1,7 @@
+ #include <stdio.h>
+ 
++//comment added as a change for step 30
++
+ void microkernel_sendmsg(char *);
+ 
+ void main(){
+-- 
+2.7.4
+
